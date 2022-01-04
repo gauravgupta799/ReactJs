@@ -1,0 +1,25 @@
+.label{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+    
+}
+button{
+    padding:5px 20px;
+    font-size: 19px;
+    margin-left: 20px;
+    background:yellow;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: verdana
+    
+}
+input{
+    padding:5px;
+    width: 50%;
+    border-radius: 5px;
+    outline:none;
+    background:rgb(248, 246, 246);
+
+}
