@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "Gaurav Gupta",
+      "username": "gauravgupta7565",
+      "email": "gauravgupta756593@gmail.com",
+      "phone": "9140024536",
+      "id": 1
+    },
+    {
+      "name": "Virat Kohali",
+      "username": "viratkohali234",
+      "email": "viratkohali@gmail.com",
+      "phone": "9140024536",
+      "id": 2
+    },
+    {
+      "name": "Rahul sharma",
+      "username": "rahulsharma232",
+      "email": "rahul@gmail.com",
+      "phone": "09140024536",
+      "id": 3
+    },
+    {
+      "name": "MS dhoni",
+      "username": "msdhoni1234",
+      "email": "msdhoni@gmail.com",
+      "phone": "09140024536",
+      "id": 4
+    },
+    {
+      "name": "Shrayesh Ayyar",
+      "username": "shrayesh2323",
+      "email": "shrayesh2gmail.com",
+      "phone": "09140024536",
+      "id": 5
+    },
+    {
+      "name": "Rishabh Pant",
+      "username": "rishabh2435",
+      "email": "rishabhpant@gmail.com",
+      "phone": "09140024536",
+      "id": 6
+    },
+    {
+      "name": "Jadeja",
+      "username": "jadeja3432",
+      "email": "jadeja@gmail.com",
+      "phone": "09140024538",
+      "id": 7
+    }
+  ]
+}
