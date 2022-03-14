@@ -1,6 +1,10 @@
 import React from "react";
 import "./UserType.css";
 import daamLogo from "../images/daam.png";
+import daamImg from "../images/daamImg.png";
+import agent from "../images/agent.png";
+import collector from "../images/collector.png";
+import creator from "../images/creator.png";
 import {
 	Card,
 	Form,
@@ -33,9 +37,15 @@ const UserType = () => {
 								<Grid.Column>
 									<Header
 										size='large'
-										style={{ marginTop: "20px", color: "#342F2F" }}
+										style={{
+											marginTop: "20px",
+											marginLeft: "3px",
+											color: "#342F2F",
+											//  letterSpacing: "-0.2px",
+											//  wordSpacing:"0.5px"
+										}}
 									>
-										Tell What You Are
+										Tell Us What You Are
 									</Header>
 								</Grid.Column>
 								<Grid.Column className='para-box'>
@@ -63,7 +73,8 @@ const UserType = () => {
 												<Card
 													className='role'
 													style={{
-														height: "110px",
+														height: "120px",
+														// width: "209px",
 														borderRadius: "0px",
 														zIndex: "1",
 														marginBottom: "-32px",
@@ -73,8 +84,8 @@ const UserType = () => {
 													<Grid.Row className='card-box'>
 														<Grid.Column className='img-box'>
 															<Image
-																src='https://i.ibb.co/ck0xMYM/home.png'
 																className='card-img'
+																src={agent}
 																alt='...'
 															/>
 														</Grid.Column>
@@ -86,20 +97,21 @@ const UserType = () => {
 											</Grid.Column>
 
 											<Grid.Row centered columns={2}>
-												<Grid.Column className='card'>
+												<Grid.Column className='card' style={{}}>
 													<Card
 														className='role'
 														style={{
-															height: "110px",
+															height: "120px",
+															// width: "209px",
 															marginLeft: "10px",
 															borderRadius: "0px",
 															border: "1px solid #B9B5B5",
 														}}
 													>
 														<Grid.Row className='card-box'>
-															<Grid.Column >
+															<Grid.Column className='img-box'>
 																<Image
-																	src='https://i.ibb.co/ysZ9Tw8/Pen-Pencile.png'
+																	src={creator}
 																	className='card-img'
 																	alt='...'
 																/>
@@ -114,20 +126,19 @@ const UserType = () => {
 													<Card
 														className='role'
 														style={{
-															height: "110px",
+															height: "120px",
+															// width: "209px",
 															marginLeft: "-18px",
 															borderRadius: "0px",
 															border: "1px solid #B9B5B5",
 														}}
 													>
 														<Grid.Row className='card-box'>
-															<Grid.Column >
+															<Grid.Column className='img-box'>
 																<Image
-																	src='https://i.ibb.co/zrMdRF0/collector-1.png'
+																	src={collector}
 																	className='card-img'
 																	alt='...'
-																	
-
 																/>
 															</Grid.Column>
 															<Grid.Column>
@@ -148,7 +159,7 @@ const UserType = () => {
 
 						<Grid.Column>
 							<Image
-								src='https://i.ibb.co/481XhQ5/daamImg.png'
+								src={daamImg}
 								alt='daamimg'
 								style={{ marginTop: "10px" }}
 								id='daamimg'
