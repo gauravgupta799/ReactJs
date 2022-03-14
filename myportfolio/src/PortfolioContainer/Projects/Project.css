@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px;
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(235, 245, 245, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 1px solid rgb(12, 165, 142);
+    box-shadow: 20px 20px 50px 1px rgb(133, 132, 132);
+  }
+  .grid-container > div:hover {
+      border-bottom: 2px solid rgb(235, 105, 6);
+      transform: scale(1);
+      transform:ease-in-out; 
+}
+  #heading {
+      text-align: center;
+      font-size:30px;
+      font-weight:bold;
+      font-family: "Oswald ";
+  }
+  img{ 
+      height:100px;
+      width:100%;
+      margin-top: -20px;
+  }

@@ -1,20 +1,25 @@
 import "./App.css";
 import Home from "./PortfolioContainer/Home/Home"
 import About from "./PortfolioContainer/AboutMe/About";
-import Resume from './PortfolioContainer/Resume/Resume';
-import Testimonial from "./PortfolioContainer/Testimonial/Testimonial";
+import Skills from "./PortfolioContainer/Skills/Skills"
+import Projects from "./PortfolioContainer/Projects/Project"
+// import Resume from './PortfolioContainer/Resume/Resume';
 import Contact from "./PortfolioContainer/Contact/Contact";
+// import {BrowserRouter , Route,Routes} from "react-router-dom";
+
 
 function App() {
 	return (
-		<div className='App'>
+		<>
 			<Home/>
 			<About/><br/><br/><br/>
-			<Resume/>
+			<Skills/>
+			<Projects/>
+			{/* <Resume/><br/><br/><br/> */}
 		
-			{/* <Testimonial/> */}
-			{/* <Contact/> */}
-		</div>
+			<Contact/>
+			
+		</>
 	);
 }
 

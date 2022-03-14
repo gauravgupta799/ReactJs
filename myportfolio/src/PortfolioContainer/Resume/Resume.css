@@ -1,0 +1,61 @@
+
+
+.resume-heading-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#heading {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: system-ui;
+    letter-spacing:1px;
+    text-align: center;
+}
+
+#subheading {
+    font-size: 14px;
+    color: #5b5858;
+    letter-spacing: 2.5px;
+    font-family: cursive-arrow;
+    text-align: center;
+    /* border-bottom: 1px solid #07d896; */
+    /* border-width: 2px ; */
+
+}
+#border {
+    border: 1px solid #c44923;
+    width: 18%;
+    margin-top: 10px;
+}
+.resume-desc-box {
+    margin-top: 50px;
+}
+/* .icon-box {
+    width:20%;
+} */
+
+.icon-bar {
+    width: 40px;
+    height: 350px;
+    background-color: #080e2c;
+  }
+  
+  .icon-bar  {
+    display: block;
+    text-align: center;
+    padding: 40px 4px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .icon-bar  i {
+      /* padding: 20px 0px; */
+      margin: px 0px;
+  }
+  
+  .icon-bar i:hover {
+    background-color: rgb(169, 21, 21);
+    cursor: pointer;
+  }

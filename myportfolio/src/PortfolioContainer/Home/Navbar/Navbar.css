@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #080e2c;
+}
+.navbar-brand {
+    color:aqua;
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    color:aqua;
+}
+#navbarNav {
+    display:flex;
+    justify-content: center;
+    /* padding: opx 10px; */
+}
+.nav-item {
+    padding: 0px 10px;
+    /* background-color: greenyellow; */
+}
+.nav-link {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color:greenyellow;
+    border-bottom: 1px solid greenyellow;
+}

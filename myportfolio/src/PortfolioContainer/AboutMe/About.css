@@ -4,6 +4,24 @@
     width:70%;
     margin-top: 50px;
 }
+.about-heading-box {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.about-heading-box > h3 {
+    font-family:'Poppins';
+    font-weight: bold;
+    letter-spacing:1px;
+    border-bottom: 2px solid green;
+}
+.about-heading-box > span {
+    font-family:'cursive';
+    font-weight: 500;
+    color:rgb(76, 72, 72);
+    margin-bottom: 10px;
+}
 .about-box {
     /* border:1px solid red; */
     height: 450px;
@@ -36,7 +54,7 @@
 }
 .btn-box {
     /* background-color: lightgreen; */
-    margin-top: 40px;
+    margin-top: 20px;
     display:flex;
     /* justify-content:space-evenly; */
     /* margin-left: -30px; */

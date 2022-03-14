@@ -5,16 +5,16 @@ import "./About.css";
 const About = () => {
 	return (
 		<div className='container'>
-			<div className='d-flex flex-column'>
+			<div className='about-heading-box'>
 				<h3>About Me</h3>
 				<span>Why choose me ?</span>
-				<span>.....</span>
+				{/* <span>.....</span> */}
 			</div>
 
-			<div className='row about-box'>
+			<div className='row about-box border border-info'>
 				<div className='col-4 d-flex flex-column'>
-					<img src='https://i.ibb.co/1f94PYR/profile-Image.jpg' alt='profile' 
-						style ={{height:'450px',marginLeft:'-13px'}}
+					<img src='https://i.ibb.co/tczCQzS/my-Profile-Pic.jpg' alt='profile' 
+						style ={{height:'448px',marginLeft:'-15px',width:'110%'}}
 					/>
 				</div>
 				<div className='col-8 d-flex flex-column py-3 '>

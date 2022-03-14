@@ -1,0 +1,13 @@
+
+.skill-heading-box {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.skill-heading-box > h3 {
+    font-family:'Poppins';
+    font-weight: bold;
+    letter-spacing:1px;
+    border-bottom: 2px solid green;
+}
