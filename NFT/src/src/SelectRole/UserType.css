@@ -1,0 +1,138 @@
+body {
+	background-color: #fafafa;
+}
+
+.container {
+	margin-top: 40px;
+	top: 0px;
+	left: 0px;
+	border: 1px solid #d3cdcd;
+	background: #f7f7f7 0% 0% no-repeat padding-box;
+	opacity: 1;
+	cursor: pointer;
+}
+.para-box {
+	margin-top: 10px;
+	word-spacing: 1px;
+	font-family: "Oswald";
+}
+
+.para-text {
+	color: #625959;
+	opacity: 1;
+	font-family: "Oswald";
+	font-size: 11px;
+	font-weight: bold;
+}
+.form-box {
+	margin-top: 80px;
+}
+.card-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+	width: 80%;
+	height: 100px;
+}
+.img-box {
+	width: 50px;
+	background: #2f3234 0% 0% no-repeat padding-box;
+	border: 1px solid #e9e9e9;
+	opacity: 1;
+	border-radius: 50%;
+	padding: 12px 10px;
+}
+.card-img {
+	width: 28px;
+	height: 25px;
+	margin: auto;
+}
+#btn {
+	width: 42%;
+	margin-left: 160px;
+	margin-top: 55px;
+	border-radius: 20px;
+	letter-spacing: 0.8px;
+	font-size: 12px;
+	font-weight: normal 40/500;
+	padding: 12px;
+	background-color: #1f1a1a;
+	border: 2px solid #1f1a1a;
+	box-shadow: 0px 1px 1px #00000029;
+	color: #ffffff;
+	opacity: 1;
+}
+
+#btn:hover {
+	background: #fafafa;
+	cursor: pointer;
+	color: #000;
+	border: 2px solid #625959;
+	transform: scale(1);
+	transition: 0.2s ease-out;
+}
+
+h3 {
+	font: normal normal 600 24px/41px Oswald;
+	letter-spacing: 0px;
+	color: #1a1d1f;
+	opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+		background-color: #fafafa;
+	}
+	.container {
+		margin-top: 70px;
+	}
+	.form-box {
+		margin-top: 90px;
+		height: 390px;
+	}
+	.role {
+		margin-top: 60px;
+	}
+	#btn {
+		width: 45%;
+		margin-left: 125px;
+		margin-top: 15px;
+	}
+	#btn-box {
+		height: 500px;
+		margin-top: 60px;
+	}
+	#daamimg {
+		height: 650px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	body {
+		background-color: #fafafa;
+		background-color: greenyellow;
+	}
+	.container {
+		width: 100%;
+	}
+	.form-box {
+		margin-top: 60px;
+		border: 1px solid black;
+	}
+	.role {
+		width: 400px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	#btn {
+		width: 70%;
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+}
