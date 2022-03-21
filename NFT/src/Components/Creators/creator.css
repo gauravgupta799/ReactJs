@@ -1,0 +1,42 @@
+
+.collection-upper {
+	margin-top: 50px;
+}
+.title-box {
+	display: flex;
+	/* border: 1px solid red; */
+	width: 20%;
+}
+.title-1 {
+	top: 589px;
+	left: 44px;
+	width: 76px;
+	height: 51px;
+	color: var(--unnamed-color-1a1d1f);
+	text-align: left;
+	font: normal normal normal 34px/51px Oswald;
+	letter-spacing: 0px;
+	color: #1a1d1f;
+	opacity: 1;
+    margin-top: 20px;
+}
+.title-2 {
+	top: 1164px;
+	left: 47px;
+	width: 251px;
+	height: 51px;
+	color: var(--unnamed-color-1a1d1f);
+	text-align: left;
+	font: normal normal normal 34px/51px Oswald;
+	letter-spacing: 0px;
+	color: #1a1d1f;
+	opacity: 1;
+   
+}
+.collection {
+	margin-top: 40px;
+}
+.list-collection {
+    margin-top: 20px;
+    
+}

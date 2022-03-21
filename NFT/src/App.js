@@ -1,11 +1,13 @@
 import React from "react";
-// import User from './UserType/User';
-import UserType from "./SelectRole/UserType";
+// import UserType from "./SelectRole/UserType";
+import Creator from "./Components/Creators/Creator";
+
 
 const App = () => {
 	return (
-		<div>
-			<UserType />
+		<div >
+			{/* <UserType /> */}
+			<Creator />
 		</div>
 	);
 };

@@ -1,0 +1,10 @@
+.mid-footer-container {
+	top: 2351px;
+	left: 0px;
+	width: 1440px;
+	height: 328px;
+	background: var(--unnamed-color-cdd0d3) 0% 0% no-repeat padding-box;
+	background: #cdd0d3 0% 0% no-repeat padding-box;
+	border: 1px solid #d9d8d8;
+	opacity: 1;
+}
