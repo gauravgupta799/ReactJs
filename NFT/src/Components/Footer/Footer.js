@@ -5,7 +5,7 @@ import BottomFooter from "./BottomFooter/BottomFooter"
 
 const Footer = () => {
     return (
-        <div>
+        <div style ={{marginTop:"60px"}}>
             <UpperFooter/>
             <MidFooter/>
             <BottomFooter/>

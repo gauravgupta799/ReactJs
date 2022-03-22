@@ -5,7 +5,7 @@ import Creator from "./Components/Creators/Creator";
 
 const App = () => {
 	return (
-		<div >
+		<div>
 			{/* <UserType /> */}
 			<Creator />
 		</div>

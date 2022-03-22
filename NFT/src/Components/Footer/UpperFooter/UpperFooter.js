@@ -7,8 +7,8 @@ import Thunder from "../../../images/thunder.png";
 
 const UpperFooter = () => {
 	return (
-		<div className='upperFooter-container my-5'>
-			<Row>
+		<div className='upperFooter-container  '>
+			<Row className = "">
 				<Col span={12}>
 					<div className='left-column'>
 						<div className='img-div'>

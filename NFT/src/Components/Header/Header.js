@@ -2,21 +2,21 @@ import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
 import { Row, Col } from "antd";
-// import Creator from "../images/creator/creator.png";
+import Creator from "../../images/creator.png";
 
 const Header = () => {
 	return (
 		<div className='header'>
 			<Navbar />
-			<Row style={{}}>
+			<Row>
 				<div className='creator-box'>
-					<button style={{}}>
+					<button style={{width:"90px"}}>
 						<img
-							src='https://i.ibb.co/JRpJprt/pencil.png'
+							src={Creator}
 							alt=''
 							className='creator-img'
-						/>
-						<span>Creator</span>
+						/>					
+						Creator
 					</button>
 				</div>
 			</Row>

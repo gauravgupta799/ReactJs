@@ -1,10 +1,111 @@
 .mid-footer-container {
 	top: 2351px;
 	left: 0px;
-	width: 1440px;
-	height: 328px;
-	background: var(--unnamed-color-cdd0d3) 0% 0% no-repeat padding-box;
+	width: 1290px;
+	height: 290px;
+	/* background: var(--unnamed-color-cdd0d3) 0% 0% no-repeat padding-box; */
 	background: #cdd0d3 0% 0% no-repeat padding-box;
 	border: 1px solid #d9d8d8;
 	opacity: 1;
+}
+.logo {
+	width: 175px;
+	height: 26px;
+	opacity: 1;
+}
+
+.footer-div {
+	justify-content: center;
+	display: grid;
+	padding: 50px 40px;
+}
+
+.list-style {
+	font: normal normal 500 14px/34px Lato;
+	letter-spacing: 0px;
+	color: #2f3234;
+	opacity: 1;
+	list-style-type: none;
+}
+.list-style a {
+	height: 17px;
+	color: #2f3234;
+	list-style-type: none;
+}
+.list-style p {
+	width: 187px;
+	height: 65px;
+	text-align: left;
+	font: normal normal medium 14px/24px Lato;
+	letter-spacing: 0px;
+	color: #2f342f;
+	opacity: 1;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+.list-style a {
+	padding-right: 10px;
+}
+.list-header {
+	list-style: none;
+	height: 24px;
+	text-align: left;
+	font: normal normal 700 16px/24px Oswald;
+	letter-spacing: 0.54px;
+	color: #ff4040;
+	text-transform: uppercase;
+	opacity: 1;
+}
+.footer-link {
+	display: grid;
+	margin-left: -60px;
+}
+.footer-link input {
+	font-family: "FontAwesome";
+}
+#inputEmail {
+	top: 2613px;
+	left: 936px;
+	width: 215px;
+	height: 50px;
+	background: #f5f5f5 0% 0% no-repeat padding-box;
+	border: 1px solid #0f4c7c1a;
+	opacity: 1;
+	border-radius: 0px;
+	outline: none;
+}
+.signup-btn {
+	width: 120px;
+	height: 50px;
+	background: #fc4448 0% 0% no-repeat padding-box;
+	box-shadow: 0px 1px 1px #00000029;
+	opacity: 1;
+	border-radius: 0px;
+	margin-left: -35px;
+	outline: none;
+	text-align: center;
+	font: normal normal bold 18px/24px Lato;
+	letter-spacing: 0.4px;
+	color: #ffffff;
+	opacity: 1;
+}
+.signup-btn:hover {
+	background: #000000;
+	cursor: pointer;
+}
+#inputEmail::placeholder {
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #1a1a1a;
+	opacity: 1;
+	padding-left: 15px;
+	font-family: Oswald;
+}
+#email-icon {
+	margin-top: 19px;
+	margin-left: 10px;
+	color: black;
+}
+.input-icons i {
+	position: absolute;
 }

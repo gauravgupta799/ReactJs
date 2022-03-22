@@ -1,4 +1,8 @@
-
+.creator-div {
+	border: 1px solid #f0f0f0;
+	background: #f7f7f7 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
 .collection-upper {
 	margin-top: 50px;
 }
@@ -14,11 +18,11 @@
 	height: 51px;
 	color: var(--unnamed-color-1a1d1f);
 	text-align: left;
-	font: normal normal normal 34px/51px Oswald;
+	font: normal normal normal 32px/51px Oswald;
 	letter-spacing: 0px;
 	color: #1a1d1f;
 	opacity: 1;
-    margin-top: 20px;
+	margin-top: 20px;
 }
 .title-2 {
 	top: 1164px;
@@ -27,16 +31,28 @@
 	height: 51px;
 	color: var(--unnamed-color-1a1d1f);
 	text-align: left;
-	font: normal normal normal 34px/51px Oswald;
+	font: normal normal normal 32px/51px Oswald;
 	letter-spacing: 0px;
 	color: #1a1d1f;
 	opacity: 1;
-   
 }
 .collection {
 	margin-top: 40px;
 }
 .list-collection {
-    margin-top: 20px;
-    
+	margin-top: 20px;
+}
+.dots-box {
+	height: 38px;
+	width: 40px;
+	margin-left: 25px;
+	margin-top: 28px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #cdd0d3;
+	border-radius: 8px;
+	opacity: 1;
+}
+#three-dots {
+	width: 80%;
+	padding-left: 5px;
 }
