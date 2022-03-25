@@ -1,0 +1,148 @@
+.filter-container {
+	top: 0px;
+	left: 0px;
+	background: #f7f7f7 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+#title {
+	top: 132px;
+	left: 44px;
+	width: 140px;
+	height: 51px;
+	color: var(--unnamed-color-1a1d1f);
+	text-align: left;
+	font: normal normal normal 30px/51px Oswald;
+	letter-spacing: 0px;
+	color: #1a1d1f;
+	opacity: 1;
+	margin-left: 30px;
+}
+.button-box {
+	margin-top: 12px;
+}
+.ctrl-button {
+	width: 89px;
+	height: 30px;
+	border: 1px solid #1a1d1f;
+	border-radius: 17px;
+	opacity: 1;
+}
+.ctrl-button:hover {
+	cursor: pointer;
+}
+
+.close-btn {
+	top: 156px;
+	/* left: 223px; */
+	height: 14px;
+	text-align: left;
+	/* font: normal normal normal 12px/17px Font Awesome 5 Pro; */
+	letter-spacing: 0px;
+	color: #1a1d1f;
+	opacity: 1;
+}
+.nft-filter-btn {
+	top: 134px;
+	left: 1022px;
+	width: 170px;
+	height: 48px;
+	box-shadow: 0px 1px 1px #00000029;
+	border: 2px solid #fc4448;
+	opacity: 1;
+	font-weight: bold;
+	font-size: 16px;
+}
+.relevance-btn {
+	top: 134px;
+	left: 1225px;
+	width: 170px;
+	height: 48px;
+	box-shadow: 0px 1px 1px #00000029;
+	border: 2px solid #fc4448;
+	opacity: 1;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.down-button {
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.filter-col {
+	left: 0px;
+	height: 460px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#filter-by-digital {
+	top: 231px;
+	left: 27px;
+	width: 170px;
+	height: 19px;
+	text-align: left;
+	font: normal normal bold 16px/19px Lato;
+	letter-spacing: 0.38px;
+	color: #1a1d1f;
+	text-transform: uppercase;
+	opacity: 1;
+	margin-top: 20px;
+}
+#filter-by-physical {
+	top: 453px;
+	left: 27px;
+	height: 19px;
+	text-align: left;
+	font: normal normal bold 16px/19px Lato;
+	letter-spacing: 0.38px;
+	color: #1a1d1f;
+	text-transform: uppercase;
+	opacity: 1;
+}
+.media-icon {
+	top: 272px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+	text-align: left;
+	font: normal normal 300 16px/19px Font Awesome 5 Pro;
+	letter-spacing: 0px;
+	color: #ff4040;
+	opacity: 1;
+}
+.filter-list-items {
+	text-decoration: none;
+	list-style: none;
+	line-height: 2.5;
+	margin-left: 5px;
+}
+.list-items {
+	height: 19px;
+	text-align: left;
+	font: normal normal medium 16px/19px Lato;
+	letter-spacing: 0.26px;
+	color: #ff4040;
+	opacity: 1;
+	margin-left: 7px;
+}
+.check-box {
+	width: 18px;
+	height: 21px;
+	text-align: left;
+	font: normal normal 300 20px/25px Font Awesome 5 Pro;
+	letter-spacing: 0px;
+	color: #95989a;
+	opacity: 1;
+	margin-left: 79px;
+}
+.black-text {
+	color: #1a1d1f;
+}
+.options {
+	display: none;
+	border-radius: 5px;
+}

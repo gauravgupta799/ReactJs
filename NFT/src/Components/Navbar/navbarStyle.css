@@ -8,26 +8,15 @@
 	margin-left: 20px;
 }
 .navbar {
-	/* top: 0px; */
-	/* left: -0.00048828125px; */
-	/* width: 1440px; */
-	/* height: 117px; */
 	background: #f7f7f7 0% 0% no-repeat padding-box;
 	opacity: 0.9;
 }
 .navbar-nav {
 	margin: auto;
-	/* border: 1px solid red; */
-	/* padding: 0px 10px; */
-	/* margin-left: 250px; */
+	margin-left: 28%;
 }
 
 .nav-link {
-	/* top: 47px; */
-	/* left: 589px; */
-	/* width: 62px; */
-	/* height: 21px; */
-	/* color: var(--unnamed-color-1a1d1f); */
 	text-align: center;
 	font: normal normal medium 12px/21px Oswald;
 	letter-spacing: 1.01px;
@@ -35,39 +24,27 @@
 	text-transform: uppercase;
 	opacity: 1;
 	font-weight: bold;
-	/* text-decoration: none; */
 }
 .nav-link:hover {
-	border-bottom: 1px solid #fc4448;
-	color:#2F342F;
+	/* border-bottom: 1px solid #fc4448; */
+	color: #2f342f;
 }
 
 #logo {
 	width: 150px;
-	/* height: 30px; */
 }
 .form-container {
-	/* border: 1px solid black; */
-	/* width: 100px */
 	padding: 0px 50px;
-	/* display:flex; */
-	/* justify-content: space-evenly; */
 }
 .button-container {
 	display: flex;
 	justify-content: space-evenly;
 }
 .button {
-	/* padding: 0px 20px; */
 	margin-left: 15px;
 }
 .searchBtn {
 	outline: none;
-	/* top: 47px; */
-	/* left: 1160px; */
-	/* width: 24px; */
-	/* height: 24px; */
-	color: var(--unnamed-color-1a1d1f);
 	text-align: left;
 	font: normal normal 300 24px/29px Font Awesome 5 Pro;
 	letter-spacing: 0px;
@@ -77,13 +54,10 @@
 	border: none;
 	background: #f7f7f7 0% 0% no-repeat padding-box;
 	font-size: 20px;
+	display: flex;
 }
 .login-btn {
-	/* top: 38px; */
-	/* left: 1203px; */
 	width: 92px;
-	/* height: 40px; */
-	background: var(--unnamed-color-1a1d1f) 0% 0% no-repeat padding-box;
 	border: 1px solid var(--unnamed-color-1a1d1f);
 	background: #1a1d1f 0% 0% no-repeat padding-box;
 	box-shadow: 0px 1px 1px #00000029;
@@ -116,4 +90,27 @@
 	text-transform: uppercase;
 	font-family: Lato;
 	letter-spacing: 1.02px;
+	font-weight: bold;
+}
+.start-btn:hover {
+	color: #ff4040;
+}
+#search {
+	margin-left: -330px;
+	position: absolute;
+	outline: none;
+	border: none;
+	box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.06);
+	font-size: 18px;
+	font-weight: 500;
+	padding: 8px;
+	color: rgb(74, 72, 72);
+	width: 350px;
+	border-radius: 10px 0px 0px 10px;
+	margin-top: -3px;
+	cursor: pointer;
+}
+
+.c-link {
+	margin-top: 3px;
 }

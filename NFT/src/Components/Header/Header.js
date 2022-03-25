@@ -10,12 +10,8 @@ const Header = () => {
 			<Navbar />
 			<Row>
 				<div className='creator-box'>
-					<button style={{width:"90px"}}>
-						<img
-							src={Creator}
-							alt=''
-							className='creator-img'
-						/>					
+					<button style={{ width: "90px" }}>
+						<img src={Creator} alt='' className='creator-img' />
 						Creator
 					</button>
 				</div>
@@ -23,7 +19,7 @@ const Header = () => {
 			<Row className='creator-detail'>
 				<Col className='creator-1'>
 					<h3>Creator Name</h3>
-					<button style={{}}>View Presentation</button>
+					<button>View Presentation</button>
 				</Col>
 				<Col>
 					<Row
@@ -37,7 +33,7 @@ const Header = () => {
 						<Col className='about-container'>
 							<div className='about-box'>
 								<h4>About</h4>
-								<p>
+								<p style={{lineHeight:"1"}}>
 									Lorem ip Lorem ipsum dolor sit amet, vel accumsan liberavisse
 									ex, ea nec elaboraret interpretaris, sed diceret
 									concludaturque no. Verear habemus sea ut. His nibh scripta in.
@@ -80,7 +76,6 @@ const Header = () => {
 					</Row>
 				</Col>
 			</Row>
-			
 		</div>
 	);
 };

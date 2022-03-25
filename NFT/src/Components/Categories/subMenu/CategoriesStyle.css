@@ -1,0 +1,44 @@
+#categories-text {
+	font-size: 15px;
+	text-align: center;
+	color: #1a1d1f;
+	text-transform: uppercase;
+	opacity: 1;
+    padding: 0px 5px;
+    letter-spacing:1;
+    margin-top: 8px;
+    font-weight:bold;
+}
+
+.categories-list-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    z-index:1;
+    height:200px;
+    width: 400px;
+    margin-left: -150px;
+    border-radius:10px ;
+    background-color:#F7F7F7;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+}
+.upper-heading {
+    color:red;
+}
+img {
+    width:20px;
+    height: 22px;
+    margin-right:7px;
+}
+#vertical-line {
+    height: 170px;
+    border:1px solid #E6E6E6;
+    margin-top: 20px;
+} 
+
+ li {
+    color:black;
+    
+}

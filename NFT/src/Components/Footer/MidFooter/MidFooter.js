@@ -118,15 +118,17 @@ const MidFooter = () => {
 						</li>
 						<div className='row' style={{ marginTop: "10px" }}>
 							<div className='col-7 input-icons'>
-							<i className="fa fa-envelope" id="email-icon" aria-hidden="true"></i>
-									<input
-										type='email'
-										id='inputEmail'
-										className='form-control'
-										placeholder='Email'									
-									/>
-													
-													 
+								<i
+									className='fa fa-envelope'
+									id='email-icon'
+									aria-hidden='true'
+								></i>
+								<input
+									type='email'
+									id='inputEmail'
+									className='form-control'
+									placeholder='Email'
+								/>
 							</div>
 							<div className='col-5'>
 								<button className='btn btn-danger signup-btn'>Sign up</button>

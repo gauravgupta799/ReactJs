@@ -8,7 +8,7 @@ import Thunder from "../../../images/thunder.png";
 const UpperFooter = () => {
 	return (
 		<div className='upperFooter-container  '>
-			<Row className = "">
+			<Row className=''>
 				<Col span={12}>
 					<div className='left-column'>
 						<div className='img-div'>
@@ -20,7 +20,7 @@ const UpperFooter = () => {
 								Learn more about how to utilize DAAM to manage your <br />{" "}
 								digital creations.
 							</p>
-							<div className="more-box">
+							<div className='more-box'>
 								<span>Read More</span>
 								<span>
 									<img src={More} alt='' className='moreImg' />
@@ -38,10 +38,10 @@ const UpperFooter = () => {
 						<div className='doc-box'>
 							<h4>Get Started</h4>
 							<p>
-								Get up and running quickly as a Collector or Creator or <br/> Apply to
-								become an Agent today. <br />{" "}
+								Get up and running quickly as a Collector or Creator or <br />{" "}
+								Apply to become an Agent today. <br />{" "}
 							</p>
-							<div className="more-box">
+							<div className='more-box'>
 								<span className=''>Get Minted Now</span>
 								<span>
 									<img src={More} alt='' className='moreImg' />

@@ -1,0 +1,26 @@
+.r-dropdown-content {
+	width: 180px;
+	height: 160px;
+	left: 0;
+	box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.08);
+	position: absolute;
+	z-index: 1;
+	background-color: #f7f7f7;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+
+.r-dropdown-item {
+	padding: 2px 7px;
+	border-bottom: 1px sold gray;
+	display: flex;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.r-dropdown-item > span {
+	padding: 0px 5px;
+	text-align: left;
+	font-weight: 500;
+	letter-spacing: 0px;
+	color: #2f3234;
+	opacity: 1;
+}

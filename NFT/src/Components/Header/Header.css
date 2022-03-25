@@ -33,7 +33,7 @@
 	text-align: left;
 	font: normal normal normal 14px/17px Font Awesome 6 Pro;
 	letter-spacing: 0px;
-	color: #1a1d1f;
+	color: #0e0f0f;
 	opacity: 1;
 	padding-right: 2px;
 }
@@ -86,7 +86,8 @@
 	overflow-y: hidden;
 }
 .about-box {
-	margin-left: 30px;
+	margin-left: 25px;
+	margin-top: -5%;
 }
 .about-box > h4 {
 	height: 49px;
@@ -146,12 +147,5 @@
 	body{
 		background-color: coral;
 	}
-	.creator-box {
-		/* margin-left:-250px ; */
-	}
-	.about-container {
-		
-
-
-	}
+	
 }

@@ -1,13 +1,17 @@
 import React from "react";
 // import UserType from "./SelectRole/UserType";
-import Creator from "./Components/Creators/Creator";
+// import Creator from "./Components/Creators/Creator";
+// import HorizontalLoginForm from "./LoginForm/Login"
+import Filter from "./Components/FilterPage/Filter";
 
 
 const App = () => {
 	return (
-		<div>
+		<div className = "container my-5">
 			{/* <UserType /> */}
-			<Creator />
+			{/* <Creator /> */}
+			{/* <HorizontalLoginForm/>  */}
+			<Filter />
 		</div>
 	);
 };

@@ -3,7 +3,7 @@
 	left: 0px;
 	width: 1290px;
 	height: 60px;
-	background:#F5F5F5 0% 0% no-repeat padding-box;
+	background: #f5f5f5 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 .footer-container-row {
@@ -11,28 +11,20 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	/* justify-content: space-evenly; */
 }
 
 #copyright {
-	/* top: 2802px; */
-	/* left: 84px; */
-	/* width: 241px; */
 	height: 17px;
-	/* text-align: left; */
 	font: normal normal bold 14px/34px Lato;
 	letter-spacing: 0px;
 	color: #59625a;
 	opacity: 1;
 	margin-left: 30px;
 	margin-top: 15px;
-	/* border: 1px solid black; */
 }
-.terms-privacy-box{
-	/* border:1px solid black; */
+.terms-privacy-box {
 	margin-left: 170px;
 	margin-top: 15px;
-
 }
 #privacy-text {
 	top: 2802px;

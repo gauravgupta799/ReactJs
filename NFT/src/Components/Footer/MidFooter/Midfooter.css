@@ -3,7 +3,6 @@
 	left: 0px;
 	width: 1290px;
 	height: 290px;
-	/* background: var(--unnamed-color-cdd0d3) 0% 0% no-repeat padding-box; */
 	background: #cdd0d3 0% 0% no-repeat padding-box;
 	border: 1px solid #d9d8d8;
 	opacity: 1;
@@ -94,7 +93,7 @@
 	cursor: pointer;
 }
 #inputEmail::placeholder {
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 0px;
 	color: #1a1a1a;
 	opacity: 1;
@@ -104,7 +103,8 @@
 #email-icon {
 	margin-top: 19px;
 	margin-left: 10px;
-	color: black;
+	/* color: #1A1A1A; */
+	color:#595E62;
 }
 .input-icons i {
 	position: absolute;

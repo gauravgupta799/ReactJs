@@ -3,11 +3,12 @@ import "./Collection.css";
 import { Image, Row, Col } from "antd";
 import ProfileImg from "../../images/profile_placeholder.png";
 
+
 const Collection = () => {
 	return (
-		<div className='collection-items'>
+		<div className='collection-items-box'>
 			<div className='collection-up'>
-				<div className='collection-img'>
+				<div className='collection-img' >
 					<Image width={200} src='' />
 				</div>
 				<div className='collection-down'>
