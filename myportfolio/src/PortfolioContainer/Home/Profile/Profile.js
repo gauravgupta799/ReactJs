@@ -36,14 +36,14 @@ const Profile = () => {
 					<div className='profile-details-name'>
 						<span className='primary-text'>
 							{" "}
-							Hello, I'm<span className='highlighted-text'>Gaurav</span>
+							Hello, I'm <span className='highlighted-text'>Gaurav</span>
 						</span>
 					</div>
           <div className='profile-details-role'>
             <span className='primary-text'>
               {" "}
-              <h1>
-                {/* {" "}
+              {/* <h1>
+                {" "}
 				<Typical 
 					steps = {[
 						"Enthusiastic Dev 🔋 ", 1000,
@@ -54,8 +54,8 @@ const Profile = () => {
 						"Photographer 📸"
 					]}
 					loop={Infinity}
-				/> */}
-              </h1>
+				/>
+              </h1> */}
 			  <span className= "profile-role-tagline">
 				  Knack of building with front 
 				  and backned operations.
@@ -63,7 +63,7 @@ const Profile = () => {
             </span>
           </div>
 		  <div className='profile-options'>
-			  <button className='btn primary-btn'>
+			  <button className='btn btn-primary'>
 				  {" "}
 				  Hire Me !
 			  </button>

@@ -1,48 +1,51 @@
-/* Style inputs */
+#contact {
+  border:2px solid rgb(210, 208, 208);
+  height: 100vh;
+  width: 100%;
+  box-shadow: 20px 20px 50px 1px rgb(133, 132, 132);
+  margin-top: 50px;
+}
+.text > h2 {
+  font-family: "Helvetica Neue";
+  font-weight: 600;
+  margin-top: 10px;
+}
+.text >p {
+  color:gray;
+  font-weight: 600;
+}
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
   }
-  
+   form {
+     margin-right: 30px;
+    
+   }
   input[type=submit] {
     background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
+    padding: 12px 40px;
     border: none;
     cursor: pointer;
-  }
-  
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing:1px;
+    color: black;
+    border-radius:5px  ;
+}
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color:black;
+    color:yellow; 
   }
-  
-  /* Style the container/contact section */
-  /* .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  } */
-  
-  /* Create two columns that float next to eachother */
   .column {
     float: left;
     width: 50%;
     margin-top: 6px;
-    padding: 20px;
+    padding: 20px 50px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;

@@ -1,7 +1,19 @@
+#projects {
+  border:2px solid rgb(210, 208, 208);
+  height: 100vh;
+  width: 100%;
+  box-shadow: 20px 20px 50px 1px rgb(133, 132, 132);border:2px solid rgb(210, 208, 208);
+  height: 100vh;
+  width: 100%;
+  box-shadow: 20px 20px 50px 1px rgb(133, 132, 132);
+  /* background-color:black; */
+  /* background-color:#273c75; */
+  background-color:#1e272e;
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 250px 250px;
     gap: 15px;
     padding: 10px;
   }
@@ -12,7 +24,7 @@
     padding: 20px 0;
     font-size: 30px;
     border: 1px solid rgb(12, 165, 142);
-    box-shadow: 20px 20px 50px 1px rgb(133, 132, 132);
+    box-shadow: 20px 20px 50px 1px rgb(49, 47, 47);
   }
   .grid-container > div:hover {
       border-bottom: 2px solid rgb(235, 105, 6);
@@ -29,4 +41,25 @@
       height:100px;
       width:100%;
       margin-top: -20px;
+  }
+  .button-box {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .button-box > button {
+    border-radius:10px  ;
+   background-color:lightcoral;
+   border:none;
+   outline:none;
+   text-align:center;
+}
+
+  .button-box > button >a {
+    font-size:18px;
+    padding: 0px 2px;
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+
   }

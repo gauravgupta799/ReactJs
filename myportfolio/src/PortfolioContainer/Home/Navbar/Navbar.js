@@ -1,12 +1,15 @@
+import React from "react";
 import "./Navbar.css";
+
 // import {Link} from "react-router-dom";
 
 const Navbar = () => {
-	return (
-		<>
-			<nav className='navbar navbar-expand-lg'>
+	
 
-				<a className='navbar-brand' href="#">
+	return (
+		<div >
+			<nav className='navbar navbar-expand-lg fixed-top '>
+				<a className='navbar-brand' href='#'>
 					Portfolio
 				</a>
 				<button
@@ -23,34 +26,36 @@ const Navbar = () => {
 				<div className='collapse navbar-collapse' id='navbarNav'>
 					<ul className='navbar-nav'>
 						<li className='nav-item active'>
-							<a className='nav-link nav-link' href="#">
+							<a className='nav-link nav-link' href='#home'>
 								Home <span className='sr-only'></span>
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link'  href="#about">
+							<a className='nav-link' href='#about'>
 								About
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link'  href="#">
+							<a className='nav-link' href='#skill'>
 								Skills
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link ' href="#">
+							<a className='nav-link ' href='#projects'>
 								Projects
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' href="#">
-						       Contact
+							<a className='nav-link' href='#contact'>
+								Contact
 							</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-		</>
+
+		</div>
+		// </>
 	);
 };
 

@@ -29,9 +29,13 @@
 .primary-text {
     color: (--white);
 }
+.highlighted-btn {
+    background-color: aqua;
+}
 
 .highlighted-text {
     color:var(--dark-orange);
+    /* color:orangered; */
 }
 .profile-role-tagline {
     font-size: 19px;

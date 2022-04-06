@@ -4,7 +4,7 @@ import "./About.css";
 
 const About = () => {
 	return (
-		<div className='container'>
+		<div className='container' id="about">
 			<div className='about-heading-box'>
 				<h3>About Me</h3>
 				<span>Why choose me ?</span>
@@ -14,7 +14,7 @@ const About = () => {
 			<div className='row about-box border border-info'>
 				<div className='col-4 d-flex flex-column'>
 					<img src='https://i.ibb.co/tczCQzS/my-Profile-Pic.jpg' alt='profile' 
-						style ={{height:'448px',marginLeft:'-15px',width:'110%'}}
+						style ={{height:'448px',marginLeft:'-15px',width:'110%',marginTop:"0px"}}
 					/>
 				</div>
 				<div className='col-8 d-flex flex-column py-3 '>

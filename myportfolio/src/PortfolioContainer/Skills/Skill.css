@@ -1,13 +1,86 @@
-
-.skill-heading-box {
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
+ #skill {
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+    border: 1px solid rgb(221, 143, 143);
+    box-shadow: 20px 20px 50px 1px grey;
+    background-color:#273c75;
+    color:white;
+    border-radius: 0px 100px 0px 100px;
+    -webkit-border-radius: 0px 100px 0px 100px;
+    -moz-border-radius: 0px 100px 0px 100px;
+    -ms-border-radius: 0px 100px 0px 100px;
+    -o-border-radius: 0px 100px 0px 100px;
 }
-.skill-heading-box > h3 {
+#bot-brdr{
+    height: 3px;
+    width:120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin-left: 46.3%;
+}
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+    text-transform:uppercase;
+}
+.skill-heading-box {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.tablist {
+    font-size:24px;
+    font-weight:bold;
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    
+}
+.tabpanel ul {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   font-size: 20px;
+   position:absolute;
+}
+.tabpanel> ul>li {
+    padding: 10px;
+    border: 1px solid green;
+    margin-left: 10px;
+    color:#0e0202;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:rgb(117, 219, 29);
+    border-radius:10px 0px 10px 0px;
+    box-shadow :0px 5px 50px 0px black;
+    
+}
+.tabpanel> ul>li:hover{
+   cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .skill-heading-box > h3 {
     font-family:'Poppins';
     font-weight: bold;
     letter-spacing:1px;
     border-bottom: 2px solid green;
-}
+} */
