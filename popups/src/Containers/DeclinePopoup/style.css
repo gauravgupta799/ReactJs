@@ -1,0 +1,40 @@
+.decline-box {
+	text-align: center;
+	padding: 30px 60px;
+}
+
+#decline {
+	top: 456px;
+	left: 704px;
+	width: 20px;
+	height: 45px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	/* font: normal normal normal 48px/58px Font Awesome 5 Pro; */
+	letter-spacing: 0px;
+	color: #ff4040;
+	opacity: 1;
+}
+.decline-box > h2 {
+	top: 510px;
+	left: 569px;
+	/* width: 301px; */
+	height: 36px;
+	font: normal normal bold 24px/36px Oswald;
+	letter-spacing: 0.82px;
+	color: #1a1d1f;
+	opacity: 1;
+}
+.decline-box > p{
+	top: 560px;
+	left: 535px;
+	width: 368px;
+	height: 34px;
+	color: var(--unnamed-color-595e62);
+	text-align: center;
+	font: normal normal medium 14px/17px Lato;
+	letter-spacing: 0.2px;
+	color: #595e62;
+	opacity: 1;
+}

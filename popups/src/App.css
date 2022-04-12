@@ -1,0 +1,9 @@
+.app {
+	/* height: 100%; */
+	top: 0px;
+	height: 1050px;
+	background: #2f3031 0% 0% no-repeat padding-box;
+	opacity: 1;
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+}

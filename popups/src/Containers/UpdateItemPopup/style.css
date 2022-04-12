@@ -1,0 +1,38 @@
+.container {
+	/* border:1px solid #000; */
+	text-align: center;
+	padding: 30px 90px;
+}
+#loader {
+	font-size: 34px;
+	top: 456px;
+	left: 695px;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	font: normal normal normal 48px/58px Font Awesome 5 Pro;
+	color: #ff4040;
+	opacity: 1;
+}
+.container > h2 {
+	top: 510px;
+	left: 643px;
+	height: 36px;
+	font-size: 24px;
+	font-weight: bold;
+	/* font: normal normal bold 24px/36px Oswald; */
+	letter-spacing: 1.15px;
+	color: #1a1d1f;
+	opacity: 1;
+}
+.container > p {
+	top: 560px;
+	left: 535px;
+	height: 34px;
+	color: var(--unnamed-color-595e62);
+	text-align: center;
+	font: normal normal medium 14px/17px Lato;
+	letter-spacing: 0.2px;
+	color: #595e62;
+	opacity: 1;
+}

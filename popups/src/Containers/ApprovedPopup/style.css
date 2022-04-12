@@ -1,0 +1,36 @@
+.approve-box {
+	text-align: center;
+	padding: 30px 50px;
+}
+#checkIcon {
+	top: 456px;
+	left: 695px;
+	width: 48px;
+	height: 30px;
+	text-align: center;
+	font-size: 40px;
+	/* font: normal normal normal 48px/58px Font Awesome 5 Pro; */
+	letter-spacing: 0px;
+	color: #2bce88;
+	opacity: 1;
+}
+.approve-box > h2 {
+	top: 510px;
+	left: 565px;
+	/* width: 308px; */
+	height: 36px;
+	font: normal normal bold 24px/36px Oswald;
+	letter-spacing: 0.82px;
+	color: #1a1d1f;
+	opacity: 1;
+}
+.approve-box > p {
+	top: 560px;
+	left: 535px;
+	height: 34px;
+	text-align: center;
+	font: normal normal medium 14px/17px Lato;
+	letter-spacing: 0.2px;
+	color: #595e62;
+	opacity: 1;
+}

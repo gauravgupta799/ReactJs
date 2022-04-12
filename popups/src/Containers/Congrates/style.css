@@ -1,0 +1,29 @@
+.congrats-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 55px;
+}
+.congrats-box > h2 {
+	top: 517px;
+	left: 633px;
+	width: 173px;
+	height: 36px;
+	font: normal normal bold 26px/40px Oswald;
+	letter-spacing: 1.15px;
+	color: #1a1d1f;
+	opacity: 1;
+}
+.congrats-box > p{
+	top: 563px;
+	left: 535px;
+	width: 368px;
+	height: 17px;
+    margin-left: 20px;
+	font: normal normal medium 14px/17px Lato;
+	letter-spacing: 0.2px;
+	color: #595e62;
+	opacity: 1;
+}
